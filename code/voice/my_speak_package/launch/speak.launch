@@ -1,0 +1,7 @@
+<launch> 
+ 
+<node pkg = "sound_play" name = "soundplay_node" type = "soundplay_node.py" /> 
+ 
+<node pkg = "my_speak_package" type = "speak_node" name = "speak_node" output = "screen"/>
+
+</launch>
